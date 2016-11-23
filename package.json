@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "babel-runtime": "^6.18.0",
-    "encoding-japanese": "1.0.25"
+    "encoding-japanese": "^1.0.25"
   },
   "devDependencies": {
     "@types/encoding-japanese": "^1.0.15",
