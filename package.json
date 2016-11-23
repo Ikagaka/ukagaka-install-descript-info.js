@@ -9,7 +9,6 @@
   "main": "./dist/lib/ukagaka-install-descript-info.js",
   "types": "./dist/lib/ukagaka-install-descript-info.d.ts",
   "files": [
-    "src",
     "dist",
     "web"
   ],
@@ -83,6 +82,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ikagaka/ukagaka-install-descript-info.git"
+    "url": "https://github.com/Ikagaka/ukagaka-install-descript-info.js.git"
   }
 }
