@@ -1,4 +1,4 @@
-[ukagaka-install-descript-info.js - Nanika Storage](https://github.com/Ikagaka/ukagaka-install-descript-info.js)
+[ukagaka-install-descript-info.js](https://github.com/Ikagaka/ukagaka-install-descript-info.js)
 ==========================
 
 [![npm](https://img.shields.io/npm/v/ukagaka-install-descript-info.svg)](https://www.npmjs.com/package/ukagaka-install-descript-info)
