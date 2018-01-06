@@ -1,6 +1,8 @@
 [ukagaka-install-descript-info.js](https://github.com/Ikagaka/ukagaka-install-descript-info.js)
 ==========================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Ikagaka/ukagaka-install-descript-info.js.svg)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/npm/v/ukagaka-install-descript-info.svg)](https://www.npmjs.com/package/ukagaka-install-descript-info)
 [![npm license](https://img.shields.io/npm/l/ukagaka-install-descript-info.svg)](https://www.npmjs.com/package/ukagaka-install-descript-info)
 [![npm download total](https://img.shields.io/npm/dt/ukagaka-install-descript-info.svg)](https://www.npmjs.com/package/ukagaka-install-descript-info)
