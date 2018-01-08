@@ -7,7 +7,7 @@ module.exports = function(config) {
     frameworks: ["mocha"].concat(process.env.NO_DETECT ? [] : ["detectBrowsers"]),
     files: ["test/**/*.ts"],
     preprocessors: {"test/**/*.ts": ["webpack", "sourcemap", "espower"]},
-    reporters: ["mocha", "coverage"],
+    reporters: ["mocha"],
     webpack,
     detectBrowsers: {
       usePhantomJS: false,
@@ -24,14 +24,6 @@ module.exports = function(config) {
         }
         return result;
       },
-    },
-    coverageReporter: {
-      reporters: [
-        {type: "html"},
-        {type: "lcov"},
-        {type: "text"},
-        {type: "text-summary"},
-      ],
     },
   });
 };
