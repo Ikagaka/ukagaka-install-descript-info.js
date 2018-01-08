@@ -1,10 +1,12 @@
-parser: babel-eslint
-extends: narazaka
+extends: google
 env:
   es6: true
   node: true
-  mocha: true
 rules:
-  # for karma
-  no-process-env: 0
-  no-magic-numbers: 0
+  quotes:
+    - 2
+    - double
+    - avoid-escape
+  max-len:
+    - 2
+    - code: 120

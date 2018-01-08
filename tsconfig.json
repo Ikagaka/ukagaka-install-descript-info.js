@@ -12,11 +12,17 @@
         "noUnusedParameters": true,
         "preserveConstEnums": true,
         "sourceMap": true,
-        "strictNullChecks": true
+        "sourceRoot": ".",
+        "strictNullChecks": true,
+        "outDir": "dist",
+        "lib": [
+            "dom",
+            "es2015"
+        ]
     },
     "exclude": [
         "node_modules",
         "dist",
-        "test"
+        "web"
     ]
 }

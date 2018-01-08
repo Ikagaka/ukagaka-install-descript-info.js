@@ -85,7 +85,7 @@ export class UkagakaDescriptInfoParser<T extends keyof UkagakaDescriptInfoType> 
       }
     }
     this.errorLines = errorLines;
-    this.result = <any> info;
+    this.result = info as any;
     return this;
   }
 }
@@ -99,8 +99,7 @@ export class UkagakaDescriptInfo {
   static parse(data: string | Buffer, type: "headline"): UkagakaDescriptInfo.Headline;
   static parse(data: string | Buffer, type: "calendar.skin"): UkagakaDescriptInfo.CalendarSkin;
   static parse(data: string | Buffer, type: "calendar.plugin"): UkagakaDescriptInfo.CalendarPlugin;
-  static parse(data: string | Buffer, type: "base"): UkagakaDescriptInfo;
-  static parse(data: string | Buffer): UkagakaDescriptInfo;
+  static parse(data: string | Buffer, type?: "base"): UkagakaDescriptInfo;
   static parse(data: string | Buffer, type?: keyof UkagakaDescriptInfoType) {
     return new UkagakaDescriptInfoParser(type || "base").parse(data).result;
   }
@@ -258,7 +257,7 @@ export namespace UkagakaDescriptInfo {
     defaulty?: number;
     defaultleft?: number;
     defaulttop?: number;
-  };
+  }
 
   export class GhostCharacterSakura extends GhostCharacter {
     name: string;
@@ -267,10 +266,10 @@ export namespace UkagakaDescriptInfo {
 
   export class GhostSerikoSetting {
     alignmenttodesktop?: SerikoSurfacePosition;
-  };
+  }
   export class GhostCharacterSerikoSetting extends GhostSerikoSetting {
     defaultsurface?: number;
-  };
+  }
 
   export type SerikoSurfacePosition = "top" | "bottom" | "free";
 

@@ -1,6 +1,6 @@
 /// <reference types="mocha" />
 import * as assert from "power-assert";
-import {UkagakaDescriptInfoParser} from "../src/lib/ukagaka-install-descript-info";
+import {UkagakaDescriptInfoParser} from "../lib/ukagaka-install-descript-info";
 
 const descript = `
 charset,UTF-8

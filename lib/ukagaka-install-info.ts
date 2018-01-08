@@ -16,14 +16,14 @@ import {
   skipLineRe,
 } from "./util";
 
-export type UkagakaInstallInfoChildTypeSettings = {
-  directory?: string,
+export interface UkagakaInstallInfoChildTypeSettings {
+  directory?: string;
   source: {
     directory?: string,
-  },
-  refresh: NumberBool,
-  refreshundeletemask: string[],
-};
+  };
+  refresh: NumberBool;
+  refreshundeletemask: string[];
+}
 
 /** "install.txt" パーサー */
 export class UkagakaInstallInfoParser {
