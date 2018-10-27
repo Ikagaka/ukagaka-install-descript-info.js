@@ -2,7 +2,7 @@
     "compileOnSave": true,
     "compilerOptions": {
         "module": "commonjs",
-        "target": "es2015",
+        "target": "es2017",
         "declaration": true,
         "noImplicitAny": true,
         "noImplicitThis": true,
@@ -16,13 +16,11 @@
         "strictNullChecks": true,
         "outDir": "dist",
         "lib": [
-            "dom",
-            "es2015"
+            "es2017"
         ]
     },
     "exclude": [
         "node_modules",
-        "dist",
-        "web"
+        "dist"
     ]
 }
